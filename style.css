@@ -1,0 +1,180 @@
+body {
+    background-color: cornsilk;
+}
+
+.header {
+    position: fixed;
+    background-color: cornsilk;
+    height: 50px;
+    width: 100%;
+    border-bottom: double navajowhite 10px;
+    z-index: 5;
+}
+
+.floater {
+    margin-right: 30px;
+    margin-top: 3px;
+    float: right;
+}
+
+.phone {
+    height: 35px;
+    margin-right: 0px;
+    padding-top: 10px
+}
+
+.adder {
+    line-height: 15px;
+    height: 35px;
+    width: 50%;
+    padding-bottom: 15px;
+    margin-right: 140px;
+}
+
+.menu {
+    position: fixed;
+    float: left;
+    width: 15%;
+    z-index: 6;
+}
+
+.menu img {
+    width: 100%;
+}
+
+.menu a {
+    margin-left: 5px;
+}
+
+
+.mainBody {
+    margin-top: 60px;
+    margin-right: 10px;
+    float: right;
+    height: 800px;
+    width: 83%;
+    border: double navajowhite 10px;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.contacts {
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.adresses {
+    width: 40%;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/*----------------------------*/
+
+.carousel {
+    position: relative;
+    width: 1235px;
+    height: 410px;
+    padding: 10px 40px;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+    background-color: bisque;
+    top: 30px;
+    left: 30px;
+}
+
+.carousel img {
+    width: 385px;
+    height: 385px;
+    display: block;
+}
+
+.arrow {
+    position: absolute;
+    top: 60px;
+    padding: 0;
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+}
+
+.arrow:focus {
+    background-color: darkkhaki;
+    outline: none;
+}
+
+.arrow:hover {
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.prev {
+    background-color: darkkhaki;
+    left: 7px;
+    top: 100px;
+    height: 200px;
+}
+
+.next {
+    background-color: darkkhaki;
+    right: 7px;
+    top: 100px;
+    height: 200px;
+}
+
+.gallery {
+    width: 1155px;
+    height: 385px;
+    overflow: hidden;
+}
+
+.gallery ul {
+    height: 130px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 250ms;
+    font-size: 0;
+}
+
+.gallery li {
+    display: inline-block;
+}
+
+/*//////////////////////////////////*/
+.reg {
+    height: 400px;
+    width: 700px;
+    background-color: cornsilk;
+    position: absolute;
+    z-index: 9;
+    top: 50px;
+    left: 50px;
+    border: double 10px navajowhite;
+}
+
+#undreg {
+    height: 500px;
+    width: 800px;
+    background-color: burlywood;
+    position: absolute;
+    z-index: 8;
+    top: 15%;
+    left: 25%;
+    visibility: hidden;
+}
+
+.form {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
